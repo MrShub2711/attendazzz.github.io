@@ -1,0 +1,43 @@
+@media screen and (max-width:1200px) {
+    body{
+        background-position: center;
+    }
+    header{
+        width: 100%;
+        height: 100%;
+        flex-direction: column;
+    }
+    .logo{
+        text-align: center;
+    }
+    .nav ul{
+        justify-content: center;
+    }
+    .search{
+        text-align: center;
+    }
+    .main{
+        flex-direction: column;
+        align-items: center;
+    }
+    hr{
+        width: 96vw;
+        border-style: solid;
+        margin-top: 25px;
+        color: darkorange;
+    }
+    .head{
+        justify-content: center;
+        align-items: center;
+    }
+    .loginInfo{
+        margin-left: 115px;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .nav ul li a{
+        font-size: 4vw;
+    }
+    
+}
